@@ -24,17 +24,6 @@ export default function Login() {
     }
   }
 
-  // function handleResetForm() {
-  //   setUserInput({
-  //     email: '',
-  //     password: '',
-  //   });
-
-  //   setInputEditted({
-  //     email: false,
-  //     password: false,
-  //   });
-  // }
   return (
     <form onSubmit={handleSubmitForm}>
       <h2>Login</h2>
